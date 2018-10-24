@@ -19,6 +19,7 @@ public class WidgetTest {
 	public void defaultState() {
 		Widget widget = new Widget();
 		assertTrue(widget.isEnabled());
+		System.out.println("Testing");
 	}
 
 	/**
@@ -31,5 +32,6 @@ public class WidgetTest {
 		assertFalse(widget.isEnabled());
 		widget.setEnabled(true);
 		assertTrue(widget.isEnabled());
+		System.out.println("Testing2");
 	}
 }
