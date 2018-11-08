@@ -1,11 +1,12 @@
 package com.github.maven.example.tests;
 
+
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-import com.github.maven.example.Widget;
-
 import org.junit.Test;
+
+import com.github.maven.example.Widget;
 
 /**
  * Unit tests of {@link Widget} class
